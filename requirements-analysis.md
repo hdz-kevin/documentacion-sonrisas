@@ -41,7 +41,3 @@ El consultorio "Sonrisas" no tiene registro digital de citas, tratamiento ni pac
   - Monto
   - Fecha
   - Método de pago (efectivo, tarjeta, transferencia)
-
-
-
-
