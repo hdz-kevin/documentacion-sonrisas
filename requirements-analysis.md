@@ -18,9 +18,9 @@ El consultorio "Sonrisas" no tiene registro digital de citas, tratamiento ni pac
 
 - **Pacientes**: Información personal y clínica de los pacientes
   - Nombre completo
+  - Teléfono
   - Fecha de nacimiento
   - Sexo
-  - Teléfono
   - Dirección
   - Historial dental
 
