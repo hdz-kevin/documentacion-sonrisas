@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultorio Sonrisas - Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'dental-blue': '#2563eb',
+                        'dental-light': '#eff6ff',
+                        'dental-green': '#10b981'
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body class="bg-gray-50">
+    <!-- Sidebar -->
+    <div class="fixed inset-y-0 left-0 w-64 bg-white shadow-lg z-50">
+        <div class="flex flex-col h-full">
+            <!-- Logo -->
+            <div class="flex items-center justify-center h-16 bg-dental-blue">
+                <div class="flex items-center space-x-3">
+                    <i class="fas fa-tooth text-white text-2xl"></i>
+                    <h1 class="text-white text-xl font-bold">Sonrisas</h1>
+                </div>
+            </div>
+
+            <!-- Navegación -->
+            <nav class="flex-1 px-4 py-6 space-y-2">
+                <a href="index.html" class="flex items-center px-4 py-3 text-dental-blue bg-dental-light rounded-lg font-medium">
+                    <i class="fas fa-chart-line mr-3"></i>
+                    Dashboard
+                </a>
+                <a href="pacientes.html" class="flex items-center px-4 py-3 text-gray-600 hover:bg-gray-100 rounded-lg">
+                    <i class="fas fa-users mr-3"></i>
+                    Pacientes
+                </a>
+                <a href="citas.html" class="flex items-center px-4 py-3 text-gray-600 hover:bg-gray-100 rounded-lg">
+                    <i class="fas fa-calendar-alt mr-3"></i>
+                    Citas
+                </a>
+                <a href="tratamientos.html" class="flex items-center px-4 py-3 text-gray-600 hover:bg-gray-100 rounded-lg">
+                    <i class="fas fa-stethoscope mr-3"></i>
+                    Tratamientos
+                </a>
+                <a href="reportes.html" class="flex items-center px-4 py-3 text-gray-600 hover:bg-gray-100 rounded-lg">
+                    <i class="fas fa-chart-bar mr-3"></i>
+                    Reportes
+                </a>
+            </nav>
+
+            <!-- Usuario -->
+            <div class="p-4 border-t">
+                <div class="flex items-center space-x-3">
+                    <div class="w-10 h-10 bg-dental-blue rounded-full flex items-center justify-center">
+                        <i class="fas fa-user text-white"></i>
+                    </div>
+                    <div>
+                        <p class="text-sm font-medium">Dr. García</p>
+                        <p class="text-xs text-gray-500">Administrador</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contenido Principal -->
+    <div class="ml-64">
+        <!-- Header -->
+        <header class="bg-white shadow-sm border-b">
+            <div class="flex items-center justify-between px-6 py-4">
+                <div>
+                    <h2 class="text-2xl font-semibold text-gray-900 mb-2">Dashboard</h2>
+                    <p class="text-gray-600">Panel principal del consultorio</p>
+                </div>
+            </div>
+        </header>
+
+        <!-- Contenido del Dashboard -->
+        <main class="p-6">
+            <!-- Cards de Estadísticas -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+                <!-- Total Pacientes -->
+                <div class="bg-white rounded-lg shadow p-6">
+                    <h3 class="text-sm text-gray-500 mb-2">Pacientes</h3>
+                    <p class="text-3xl font-bold text-gray-900">248</p>
+                </div>
+
+                <!-- Citas Hoy -->
+                <div class="bg-white rounded-lg shadow p-6">
+                    <h3 class="text-sm text-gray-500 mb-2">Citas Hoy</h3>
+                    <p class="text-3xl font-bold text-gray-900">8</p>
+                </div>
+
+                <!-- Pendientes -->
+                <div class="bg-white rounded-lg shadow p-6">
+                    <h3 class="text-sm text-gray-500 mb-2">Pendientes</h3>
+                    <p class="text-3xl font-bold text-gray-900">3</p>
+                </div>
+
+                <!-- Ingresos -->
+                <div class="bg-white rounded-lg shadow p-6">
+                    <h3 class="text-sm text-gray-500 mb-2">Ingresos</h3>
+                    <p class="text-3xl font-bold text-gray-900">$15,200</p>
+                </div>
+            </div>
+
+            <!-- Agenda Semanal -->
+            <div class="bg-white rounded-lg shadow">
+                <div class="px-6 py-4 border-b">
+                    <h3 class="text-lg font-medium text-gray-900">Agenda Semanal</h3>
+                </div>
+
+                <div class="p-6">
+                    <!-- Días de la semana -->
+                    <div class="grid grid-cols-7 gap-4 mb-6">
+                        <div class="text-center">
+                            <p class="text-sm font-medium text-gray-600">Lun</p>
+                            <p class="text-xs text-gray-500">12</p>
+                        </div>
+                        <div class="text-center">
+                            <p class="text-sm font-medium text-gray-600">Mar</p>
+                            <p class="text-xs text-gray-500">13</p>
+                        </div>
+                        <div class="text-center">
+                            <p class="text-sm font-medium text-gray-600">Mié</p>
+                            <p class="text-xs text-gray-500">14</p>
+                        </div>
+                        <div class="text-center border-b-2 border-dental-blue pb-2">
+                            <p class="text-sm font-bold text-dental-blue">Jue</p>
+                            <p class="text-xs text-dental-blue">15</p>
+                        </div>
+                        <div class="text-center">
+                            <p class="text-sm font-medium text-gray-600">Vie</p>
+                            <p class="text-xs text-gray-500">16</p>
+                        </div>
+                        <div class="text-center">
+                            <p class="text-sm font-medium text-gray-600">Sáb</p>
+                            <p class="text-xs text-gray-500">17</p>
+                        </div>
+                        <div class="text-center">
+                            <p class="text-sm font-medium text-gray-600">Dom</p>
+                            <p class="text-xs text-gray-500">18</p>
+                        </div>
+                    </div>
+
+                    <div class="space-y-4">
+                        <!-- Cita 1 -->
+                        <div class="flex items-center justify-between p-4 bg-gray-50 rounded-lg">
+                            <div>
+                                <p class="font-medium text-gray-900 mb-1">María Rodríguez</p>
+                                <p class="text-sm text-gray-600">Profilaxis y aplicación de flúor</p>
+                            </div>
+                            <div class="text-right">
+                                <p class="text-sm font-medium">09:00 AM</p>
+                            </div>
+                        </div>
+
+                        <!-- Cita 2 -->
+                        <div class="flex items-center justify-between p-4 bg-gray-50 rounded-lg">
+                            <div>
+                                <p class="font-medium text-gray-900 mb-1">Juan López</p>
+                                <p class="text-sm text-gray-600">Extracción de muela del juicio</p>
+                            </div>
+                            <div class="text-right">
+                                <p class="text-sm font-medium">11:00 AM</p>
+                            </div>
+                        </div>
+
+                        <!-- Cita 3 -->
+                        <div class="flex items-center justify-between p-4 bg-gray-50 rounded-lg">
+                            <div>
+                                <p class="font-medium text-gray-900 mb-1">Ana Sánchez</p>
+                                <p class="text-sm text-gray-600">Ajuste de brackets ortodóncicos</p>
+                            </div>
+                            <div class="text-right">
+                                <p class="text-sm font-medium">02:30 PM</p>
+                            </div>
+                        </div>
+
+                        <!-- Cita 4 -->
+                        <div class="flex items-center justify-between p-4 bg-gray-50 rounded-lg">
+                            <div>
+                                <p class="font-medium text-gray-900 mb-1">Carlos Mendoza</p>
+                                <p class="text-sm text-gray-600">Resina dental en premolar</p>
+                            </div>
+                            <div class="text-right">
+                                <p class="text-sm font-medium">03:45 PM</p>
+                            </div>
+                        </div>
+
+                        <!-- Cita 6 -->
+                        <div class="flex items-center justify-between p-4 bg-gray-50 rounded-lg">
+                            <div>
+                                <p class="font-medium text-gray-900 mb-1">Roberto Silva</p>
+                                <p class="text-sm text-gray-600">Blanqueamiento dental</p>
+                            </div>
+                            <div class="text-right">
+                                <p class="text-sm font-medium">06:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const today = new Date();
+            const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+            document.title = `Consultorio Sonrisas - ${today.toLocaleDateString('es-ES', options)}`;
+        });
+    </script>
+</body>
+</html>
