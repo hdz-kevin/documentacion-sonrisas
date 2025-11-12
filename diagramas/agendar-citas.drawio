@@ -14,10 +14,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8ovUcRVVnd-HxeNkr-Qc-3" value="Mostrar formulario" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="358" y="129" width="148" height="60" as="geometry" />
+          <mxGeometry x="358" y="129" width="148" height="47" as="geometry" />
         </mxCell>
         <mxCell id="8ovUcRVVnd-HxeNkr-Qc-44" value="Seleccionar paciente" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="344" y="231" width="176" height="46" as="geometry" />
+          <mxGeometry x="344" y="220" width="176" height="46" as="geometry" />
         </mxCell>
         <mxCell id="8ovUcRVVnd-HxeNkr-Qc-47" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8ovUcRVVnd-HxeNkr-Qc-3" target="8ovUcRVVnd-HxeNkr-Qc-44">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -27,65 +27,65 @@
         </mxCell>
         <mxCell id="8ovUcRVVnd-HxeNkr-Qc-48" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8ovUcRVVnd-HxeNkr-Qc-44" target="8ovUcRVVnd-HxeNkr-Qc-52">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="330" y="240" as="sourcePoint" />
-            <mxPoint x="431" y="386" as="targetPoint" />
+            <mxPoint x="330" y="229" as="sourcePoint" />
+            <mxPoint x="431" y="375" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8ovUcRVVnd-HxeNkr-Qc-52" value="Seleccionar fecha y hora disponibles" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="357" y="323" width="149" height="46" as="geometry" />
+          <mxGeometry x="357" y="309" width="149" height="46" as="geometry" />
         </mxCell>
         <mxCell id="8ovUcRVVnd-HxeNkr-Qc-53" value="Elegir tratamiento(s)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="554" y="323" width="133" height="46" as="geometry" />
+          <mxGeometry x="554" y="309" width="133" height="46" as="geometry" />
         </mxCell>
         <mxCell id="8ovUcRVVnd-HxeNkr-Qc-54" value="Ingresar motivo de la cita (opcional)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="736" y="323" width="133" height="46" as="geometry" />
+          <mxGeometry x="736" y="309" width="133" height="46" as="geometry" />
         </mxCell>
         <mxCell id="8ovUcRVVnd-HxeNkr-Qc-56" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8ovUcRVVnd-HxeNkr-Qc-52" target="8ovUcRVVnd-HxeNkr-Qc-53">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="323" y="340" as="sourcePoint" />
-            <mxPoint x="374" y="340" as="targetPoint" />
+            <mxPoint x="323" y="326" as="sourcePoint" />
+            <mxPoint x="374" y="326" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8ovUcRVVnd-HxeNkr-Qc-57" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8ovUcRVVnd-HxeNkr-Qc-53" target="8ovUcRVVnd-HxeNkr-Qc-54">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="703" y="330" as="sourcePoint" />
-            <mxPoint x="749" y="330" as="targetPoint" />
+            <mxPoint x="703" y="316" as="sourcePoint" />
+            <mxPoint x="749" y="316" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8ovUcRVVnd-HxeNkr-Qc-58" value="Calcular monto total&lt;div&gt;a pagar&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="920" y="323" width="133" height="46" as="geometry" />
+          <mxGeometry x="920" y="309" width="133" height="46" as="geometry" />
         </mxCell>
         <mxCell id="8ovUcRVVnd-HxeNkr-Qc-68" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8ovUcRVVnd-HxeNkr-Qc-54" target="8ovUcRVVnd-HxeNkr-Qc-58">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="793" y="490" as="sourcePoint" />
-            <mxPoint x="793" y="539" as="targetPoint" />
+            <mxPoint x="793" y="476" as="sourcePoint" />
+            <mxPoint x="793" y="525" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8ovUcRVVnd-HxeNkr-Qc-69" value="Registrar cita en&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;la&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Base de Datos&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="913" y="407" width="148" height="60" as="geometry" />
+          <mxGeometry x="913" y="393" width="148" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8ovUcRVVnd-HxeNkr-Qc-70" value="Mostrar la cita en la agenda" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="913" y="510" width="148" height="60" as="geometry" />
+          <mxGeometry x="913" y="494" width="148" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8ovUcRVVnd-HxeNkr-Qc-71" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8ovUcRVVnd-HxeNkr-Qc-69" target="8ovUcRVVnd-HxeNkr-Qc-70">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="809.5" y="677" as="sourcePoint" />
-            <mxPoint x="809.5" y="759" as="targetPoint" />
+            <mxPoint x="809.5" y="663" as="sourcePoint" />
+            <mxPoint x="809.5" y="745" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8ovUcRVVnd-HxeNkr-Qc-72" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="8ovUcRVVnd-HxeNkr-Qc-70" target="8ovUcRVVnd-HxeNkr-Qc-73">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1003.5" y="812" as="sourcePoint" />
-            <mxPoint x="1007.4999999999998" y="934" as="targetPoint" />
+            <mxPoint x="1003.5" y="796" as="sourcePoint" />
+            <mxPoint x="1007.4999999999998" y="918" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8ovUcRVVnd-HxeNkr-Qc-73" value="Fin" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="928" y="607" width="116" height="67" as="geometry" />
+          <mxGeometry x="928" y="591" width="116" height="67" as="geometry" />
         </mxCell>
         <mxCell id="8ovUcRVVnd-HxeNkr-Qc-74" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="8ovUcRVVnd-HxeNkr-Qc-69" source="8ovUcRVVnd-HxeNkr-Qc-58">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="984.5" y="410" as="sourcePoint" />
-            <mxPoint x="1022.5" y="559" as="targetPoint" />
+            <mxPoint x="984.5" y="396" as="sourcePoint" />
+            <mxPoint x="1022.5" y="545" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
